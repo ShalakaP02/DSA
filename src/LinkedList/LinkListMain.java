@@ -14,7 +14,7 @@ public class LinkListMain {
 
 //        linkedList.getHead();
 //        linkedList.getTail();
-//        linkedList.getLength();
+        linkedList.getLength();
 //        linkedList.printList();
 
 
@@ -32,12 +32,12 @@ public class LinkListMain {
 //        linkedList.insert(2,5);
 //        linkedList.printList();
 
-//        linkedList.reverse();
-//        linkedList.printList();
+        linkedList.reverse();
+        linkedList.printList();
 
 
-          Node llist1 = linkedList.reverseUsingRecursion(linkedList.head);
-          linkedList.printLinkedList(llist1, " ");
+//          Node llist1 = linkedList.reverseUsingRecursion(linkedList.head);
+//          linkedList.printLinkedList(llist1, " ");
 
     }
 }
