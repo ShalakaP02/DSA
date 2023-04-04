@@ -27,6 +27,7 @@ public class Test {
         strList.add("a");
         strList.add("b");
         strList.add("c");
+
         System.out.println();
         strList.add(1,"d");
         System.out.println(strList);
