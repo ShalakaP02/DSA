@@ -1,9 +1,21 @@
 package LeetCode.Basic;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Test {
     public static void main(String[] args) {
+
+        String stt = "shalaka";
+        System.out.println(stt.length()-1);
+
+        List<String> listWord1 = new ArrayList<>(Arrays.asList(stt.split("")));
+        System.out.println(String.join("", listWord1));
+        System.out.println( listWord1.stream()
+                .map(String::valueOf)
+                .collect(Collectors.joining()));
+
+
         char String ='i';
         int Integer = 1;
         System.out.println(Integer+String);
