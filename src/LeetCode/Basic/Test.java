@@ -22,6 +22,7 @@ public class Test {
 
         String str = "interview".replace('e','s');
         System.out.println(str);
+        
 
 //        Map hm = new HashMap();
 //        hm.put(new Employee("a"), "emp1");
