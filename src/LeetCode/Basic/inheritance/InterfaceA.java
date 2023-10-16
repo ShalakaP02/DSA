@@ -2,6 +2,8 @@ package LeetCode.Basic.inheritance;
 
 public interface InterfaceA {
 
+    int a = 50;
+
     void fly();
     void pack();
 

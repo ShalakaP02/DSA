@@ -1,6 +1,6 @@
 package LeetCode.Basic.inheritance;
 
-public class A {
+public class A extends Exception{
 
     public A(){
         System.out.println("Constructor A");

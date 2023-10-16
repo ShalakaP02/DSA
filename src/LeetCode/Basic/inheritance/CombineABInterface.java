@@ -3,7 +3,7 @@ package LeetCode.Basic.inheritance;
 public class CombineABInterface implements InterfaceA, InterfaceB{
     @Override
     public void fly() {
-        System.out.println("I am flying from A");
+        System.out.println("I am flying from A"+InterfaceA.a);
     }
 
     @Override
